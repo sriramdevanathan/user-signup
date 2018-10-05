@@ -1,0 +1,25 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>{{title}}</title>
+        <style type="text/css">
+            div{
+                float: left;
+            }
+            label{
+                font-size: 20px;
+            }
+            #submit{
+                float:unset;
+            }
+            .error {
+                display: inline;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
